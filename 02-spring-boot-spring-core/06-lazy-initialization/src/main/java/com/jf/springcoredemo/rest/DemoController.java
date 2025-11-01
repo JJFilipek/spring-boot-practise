@@ -11,10 +11,11 @@ public class DemoController {
 
     // define a privete field for the dependency
 
-    private Coach myCoach;
+    private final Coach myCoach;
 
     @Autowired
-    public void DemoController(Coach theCoach) {
+    public DemoController(@Qualifier("cricketCoach") Coach theCoach) {
+        System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
 
