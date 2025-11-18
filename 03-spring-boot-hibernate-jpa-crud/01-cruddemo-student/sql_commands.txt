@@ -1,0 +1,2 @@
+-- change auto increment start value
+ALTER TABLE student_tracker.student AUTO_INCREMENT=3000
