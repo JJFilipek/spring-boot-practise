@@ -22,7 +22,6 @@ public class CruddemoApplication {
 		};
 	}
 
-
 	public void creteMultipleStudents(StudentDAO studentDAO) {
 		// create multiple students
 		Student tempStudent1 = new Student("Jakub", "Filipek", "jakub@gmail.com");
