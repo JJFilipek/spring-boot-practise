@@ -36,7 +36,6 @@ public class CruddemoApplication {
 	}
 
 
-
 	private void createStudent(StudentDAO studentDAO) {
 
 		// create the student object
