@@ -35,7 +35,6 @@ public class CruddemoApplication {
 		studentDAO.save(tempStudent3);
 	}
 
-
 	private void createStudent(StudentDAO studentDAO) {
 
 		// create the student object
