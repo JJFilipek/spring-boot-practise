@@ -41,6 +41,7 @@ public class CruddemoApplication {
 		}
 	}
 
+
 	private void queryForStudents(StudentDAO studentDAO) {
 		//get a list of students
 		List<Student> theStudents = studentDAO.findAll();
