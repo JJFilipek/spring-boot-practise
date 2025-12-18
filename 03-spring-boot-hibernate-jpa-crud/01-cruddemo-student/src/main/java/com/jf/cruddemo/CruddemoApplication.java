@@ -50,6 +50,7 @@ public class CruddemoApplication {
 		System.out.println("Updated student: " + myStudent);
 	}
 
+
 	private void queryForStudentsByLastName(StudentDAO studentDAO) {
 		// get a list of students
 		List<Student> theStudents = studentDAO.findByLastName("Filipek");
