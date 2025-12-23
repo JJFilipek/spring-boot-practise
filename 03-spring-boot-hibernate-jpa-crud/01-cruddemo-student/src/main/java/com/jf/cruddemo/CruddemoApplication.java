@@ -50,6 +50,7 @@ public class CruddemoApplication {
         studentDAO.delete(studentId);
     }
 
+
     private void updateStudent(StudentDAO studentDAO) {
 		// retrieve student based on the id: primaty key
 		int studentId = 1;
