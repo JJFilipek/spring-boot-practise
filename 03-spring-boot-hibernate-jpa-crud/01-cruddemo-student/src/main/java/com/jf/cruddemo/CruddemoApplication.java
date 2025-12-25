@@ -21,7 +21,7 @@ public class CruddemoApplication {
 		return runner -> {
 			// createStudent(studentDAO);
 
-			// creteMultipleStudents(studentDAO);
+			creteMultipleStudents(studentDAO);
 
 			// readStudent(studentDAO);
 
@@ -33,7 +33,7 @@ public class CruddemoApplication {
 
             // deleteStudent(studentDAO);
 			
-			deleteAllStudents(studentDAO);
+			// deleteAllStudents(studentDAO);
 		};
 	}
 
