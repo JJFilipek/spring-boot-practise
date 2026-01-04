@@ -14,5 +14,4 @@ public class DemoRestController {
     public String sayHello(){
         return "Hello World!";
     }
-
 }
